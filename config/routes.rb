@@ -1,4 +1,5 @@
 Sample::Application.routes.draw do
+  root :to => "pages#help"
   get "pages/help"
   get "pages/home"
   get "pages/develper"
