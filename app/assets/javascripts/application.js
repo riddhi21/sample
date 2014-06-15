@@ -14,3 +14,18 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+
+$(document).ready(function(){
+	$("#riddhi").click(function(){
+		event.preventDefault();
+		$(".xyz").slideUp().slideDown();
+	});
+	$(".btn").click(function(){
+  	event.preventDefault();
+  	var div=$("#123");
+  	div.animate({left:'100px'},"slow");
+  	div.animate({fontSize:'4em'},"slow");
+}); 
+
+});
